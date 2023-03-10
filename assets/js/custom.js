@@ -12,6 +12,9 @@ myDiv.addEventListener("mouseout", function() {
 
 
 
+
+
+
 $(document).ready(function(){
 
  // Start Humber Main Menu Icon Js
@@ -27,12 +30,15 @@ $(document).ready(function(){
 
 
   // hero slider js
-  $('.hero_content_area').owlCarousel({
-    loop:true,
+  $('.home_project_slider').owlCarousel({
+    loop:false,
     items: 1,
     margin:0,
     nav:true,
-    dots: false,
+    dots: true,
+    navText:
+       ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
+
     responsive:{
         0:{
             items:1,
@@ -47,14 +53,21 @@ $(document).ready(function(){
 });
 
 
- // $("#menu_logo").hover(function() {
- //    $(".first_logo").hide();
- //    $(".white_logo").show();
- //  }, function() {
- //    $(".white_logor").hide();
- //    $(".first_logo").show();
- //  });
+
+
+
 
 
 
 });
+
+  // menu hover add class
+  $( ".serive_images").hover(
+    function() {
+      $(this).addClass( "show" );
+    },
+     function() {
+      $(this).removeClass( "show" );
+    }
+  );
+  
