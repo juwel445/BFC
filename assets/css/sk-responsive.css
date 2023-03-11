@@ -1,0 +1,11 @@
+@media all and (max-width:991px){
+    .project-img-item {
+        height: 280px;
+        flex: 0 0 100%;
+    }
+}
+@media all and (max-width:767px){
+    .project-img-item {
+        height: 180px; 
+    }
+}

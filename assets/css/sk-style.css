@@ -1,0 +1,346 @@
+.title-6{
+    font-size: 20px;
+}
+.title-7{
+    font-size: 18px;
+}
+
+.pra-4{
+  font-size: 12px;
+}
+
+.pra-10{ 
+  font-size: 10px;
+}
+
+.pra-16{ 
+  font-size: 16px;
+}
+
+.pra-14{ 
+  font-size: 14px;
+}
+
+.pra-18{ 
+  font-size: 18px;
+}
+
+
+
+
+
+/***************************************/
+/********** Project Page CSS***********/
+/*************************************/
+
+.project-bnner-area{
+    background: url('../images/project-page/projects-main-image.webp') no-repeat scroll center center / 100% 100%;
+}
+
+.project-banner {
+	height: 725px;
+	display: flex;
+	align-items: end;
+}
+
+.project-banner h2 {
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 8px #283562;
+	opacity: 1; 
+	padding-bottom: 130px;
+    padding-left: 20px;
+}
+
+.contact-section-padding,
+.mf-section-padding,
+.team-section-padding,
+.project-section-padding{
+    padding: 80px 0;
+}
+
+.project-img-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.project-img-item{
+    height: 180px;
+    flex: 0 0 31%;
+}
+
+.project-img-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-works-tabs h3 {
+	color: #283562;
+	opacity: 1;
+	margin-bottom: 24px;
+}
+
+.project-works-tabs-list li a {
+	letter-spacing: 2px;
+	color: #5D6D7E;
+	text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.project-works-tabs-list li a.active,
+.project-works-tabs-list li a:hover { 
+    color: #283562;
+}
+
+.team-box,
+.project-works-box {
+	padding: 0 60px;
+}
+
+
+
+/***************************************/
+/************* Team Page CSS***********/
+/*************************************/ 
+
+.team-bnner-area{
+    background: url('../images/team/team-main-image.webp') no-repeat scroll center center / 100% 100%;
+}
+
+.team-section-title{
+    margin-bottom: 80px;
+}
+
+.team-member-title h4{
+    margin: 14px 0 8px 0;
+}
+
+.team-member-title{
+    margin-bottom: 20px;
+}
+
+.team-member-title p {
+	letter-spacing: 0.75px;
+	color: #5D6D7E;
+	text-transform: uppercase;
+}
+
+.team-box-img {
+	margin: 35px 0;
+} 
+
+.team-content-right p {
+	color: #5D6D7E;
+	margin-top: 15px;
+}
+
+.team-join-area {
+	background: #79C8EF73 0% 0% no-repeat padding-box;
+	padding: 96px 0;
+}
+
+.team-join h2 {
+	color: #283562;
+    margin-bottom: 15px;
+}
+
+.team-button {
+	background: #283562 0% 0% no-repeat padding-box;
+	border-radius: 8px;
+	padding: 10px 20px;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.team-button:hover{ 
+	color: #FFFFFF;
+}
+
+.team-content-section{
+    margin-top: 80px;
+}
+
+/***************************************/
+/*********** Team Mf Page CSS**********/
+/*************************************/ 
+
+.mf-left-img {
+	width: 100%;
+	height: 692px;
+}
+
+.mf-left-img img{
+	width: 100%;
+	height: 100%; 
+}
+
+.mf-top-title p {
+	letter-spacing: 2px;
+	color: #5D6D7E;
+	margin-bottom: 57px;
+}
+
+.mf-team-name-title p {
+	color: #5D6D7E;
+	text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 141px;
+}
+
+.mf-team-right-box > p {
+	color: #5D6D7E;
+    margin-bottom: 38px;
+}
+
+.mf-team-content-scroll a { 
+	color: #323F69;
+	text-transform: uppercase;
+}
+
+.mf-team-right-box {
+	margin-left: 100px;
+	width: 53%;
+}
+
+.mf-team-content-scroll {
+	text-align: end;
+}
+
+.team-content-left p{
+    margin-top: 30px;
+}
+
+.mf-education-acchiv img {
+	width: 90px;
+	height: 90px;
+}
+
+.mf-education-acchiv {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.ceren-edu-sort-title ,
+.mf-edu-title p {
+	letter-spacing: 2.33px;
+	color: #79C8EF;
+	margin-top: 5px;
+}
+
+.mf-edu-content p {
+	color: #5D6D7E;
+	margin-top: 30px;
+}
+
+.mf-team-box{
+    margin-left: 100px;
+}
+
+.mf-education-content-area {
+	margin-left: 50px;
+}
+
+
+/***************************************/
+/*********** Ceren page CSS ***********/
+/*************************************/ 
+
+
+.team-ceren-mid-cont p {
+	width: 87%;
+	margin: 0 auto; 
+    color: #5D6D7E;
+}
+
+.ceren-content-padding{
+    padding: 60px 0;
+}
+
+.careen-margin {
+	margin-left: 10px;
+}
+
+.ceren-uni-gap {
+	margin-bottom: 15px;
+}
+
+/***************************************/
+/*********** Contact CSS ***********/
+/*************************************/ 
+
+
+.contact-bnner-area{ 
+    overflow-x: hidden;
+    background: url('../images/contact/contact-main-image.webp') no-repeat scroll center center / 100% 100%;
+}
+
+.contact-button-text h2 {
+	width: 85%;
+	margin: 0 auto 30px auto;
+}
+
+.contact-button {
+	letter-spacing: 2.17px;
+	color: #323F69;
+	font-size: 13px;
+	border: 1px solid #323F69;
+	border-radius: 8px;
+	padding: 10px 20px; 
+    transition: 0.3s;
+}
+
+.contact-form-area{
+    overflow-x: hidden;
+}
+
+.form-btton {
+	text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.contact-button:hover{
+    background: #323F69;
+    color: #fff;
+}
+
+.form-btton .team-button { 
+    border: none;
+    padding: 10px 30px;
+}
+
+.form-group textarea,
+.form-group input {
+	border: 1px solid #D9DEEA;
+	border-radius: 4px;
+	color: #5D6D7E;
+	font-size: 16px;
+	padding: 6px 15px;
+    width: 100%;
+}
+
+.form-group { 
+    margin-bottom: 20px;
+}
+
+.contact-from {
+	width: 68%;
+	margin: 0 auto;
+}
+
+.contact-title h2{
+    margin-bottom: 60px;
+}
+
+.form-last-content {
+	color: #323F69;
+}
+
+.form-group textarea{ 
+    height: 122px;
+}
