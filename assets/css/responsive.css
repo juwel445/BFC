@@ -109,4 +109,73 @@
     .footer_social_area {
         margin-top: 25px;
     }
+    .footer_navbar ul li a {
+        margin: 0 17px;
+    }
+}
+@media all and (max-width: 575px) {
+    .hero_logo a {
+        max-width: 210px;
+        margin-top: 375px;
+    }
+    .menu_content {
+        width: 287px;
+    }
+    .nav_items {
+        padding: 100px 0 130px 65px;
+    }
+    .letter_logo_area a {
+        max-width: 250px;
+        width: 100%;
+    }
+    .home_bluefish_area {
+        width: 95%;
+        margin: auto;
+    }
+    .home_service_single_content {
+        flex: 0 0 calc(100% / 2 - 15px);
+    }
+    .home_service_area {
+        padding: 50px 0;
+    }
+    .home_about_main_area {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 70px;
+    }
+    .back_top a {
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 3px 3px 6px #00000029;
+        border-radius: 50%;
+        color: #323F69;
+        font-size: 20px;
+    }
+    .back_top {
+        position: fixed;
+        right: 5%;
+        bottom: 5%;
+        z-index: 999999;
+        display: none;
+    }
+    .title-1{
+        font-size: 50px;
+      }
+      .title-2{
+        font-size: 40px;
+      }
+      .title-3{
+        font-size: 32px;
+      }
+      .title-4{
+        font-size: 28px;
+      
+      }
+      .title-5{
+        font-size: 24px;
+      }
+      .main_area {
+        margin-top: 60px;
+    }
 }
