@@ -55,11 +55,32 @@ $(document).ready(function(){
 
 
 
+$('html,body').animate({
+  scrollTop:$($(this).attr('href')).offset().top
+},1000);
+
+// scroll js
+
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+
+
+
 
 
 
 
 });
+
+
+
+
+
+
 
   // menu hover add class
   $( ".serive_images").hover(
@@ -70,4 +91,22 @@ $(document).ready(function(){
       $(this).removeClass( "show" );
     }
   );
+
+  $(window).scroll(function(){
+
+    var scrollValue = $(this).scrollTop();
+
+    if(scrollValue>500){
+      $('.back_top').fadeIn();
+    }else{
+       $('.back_top').fadeOut();
+    }
+
+    
+
+
+  });
+
+
+
   
