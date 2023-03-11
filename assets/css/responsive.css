@@ -1,0 +1,112 @@
+@media all and (max-width: 991px) {
+    .nav_items {
+        padding: 100px 0 130px 117px;
+    }
+    .hero_logo a {
+        max-width: 379px;
+        margin-top: 375px;
+    }
+    .blufeature_inner_txt {
+        left: 25px;
+        top: 35px;
+    }
+    .home_blufish_single_items {
+        flex: 0 0 calc(100% / 3 - 10px);
+    }
+    .home_about_content_area {
+        flex-direction: column;
+    }
+    .right_home_about {
+        flex: 0 0 50%;
+        margin-top: 50px;
+    }
+    .footer_btm_area {
+        margin-left: 0px;
+        padding-top: 17px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_location a {
+        margin-top: 5px;
+    }
+    .footer_location {
+        margin: 20px 0;
+    }
+    .privacy_policy_area ul {
+        justify-content: center;
+    }
+    .footer_nav_social_area {
+        margin-left: 0;
+    }
+}
+@media all and (max-width: 767px) {
+    .hero_logo a {
+        max-width: 260px;
+        margin-top: 375px;
+    }
+    .menu_content {
+        width: 335px;
+    }
+    .nav_items {
+        padding: 100px 0 130px 75px;
+    }
+    .blufish_top_conten {
+        padding: 80px 0 70px;
+        flex-direction: column;
+    }
+    .blufish_title {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .home_blufish_content_area {
+        flex-direction: column;
+    }
+    .home_blufish_single_items {
+        margin-bottom: 35px;
+    }
+    .home_service_single_content {
+        flex: 0 0 calc(100% / 4 - 15px);
+    }
+    .home_service_area {
+        padding: 70px 0;
+    }
+    .home_project_slider .owl-next {
+        width: 45px;
+        height: 45px;
+        border: 3px solid #FFFFFF !important;
+        font-size: 16px !important;
+        position: absolute;
+        right: -28px;
+    }
+    .home_project_slider .owl-prev {
+        border: 3px solid #FFFFFF !important;
+        width: 45px;
+        height: 45px;
+        font-size: 16px !important;
+        left: -28px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .home_project_slider .owl-prev.disabled, 
+    .home_project_slider .owl-next.disabled {
+        background: #C9C9C9 !important;
+        border: 3px solid #FFFFFF !important;
+        opacity: 1 !important;
+    }
+    .footer_logo_form {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer_form_content {
+        width: 100%;
+        padding-left: 9%;
+    }
+    .footer_nav_social_area {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .footer_social_area {
+        margin-top: 25px;
+    }
+}

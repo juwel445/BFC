@@ -60,9 +60,11 @@ body{
   font-size: 16px;
   font-weight: 400;
   color: #283562;
+  overflow: hidden;
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 img{
   width: 100%;
@@ -149,13 +151,13 @@ img{
 
 
 
-.white_logo{
+.first_logo{
   display: none;
 }
-.hovered .white_logo{
+.hovered .first_logo{
   display: inline-block;
 }
-.hovered .first_logo{
+.hovered .white_logo{
   display: none;
 }
 .menu_area {
