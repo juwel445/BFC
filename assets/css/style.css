@@ -958,8 +958,10 @@ img{
 	text-align: end;
 }
 
-.team-content-left p{
-    margin-top: 30px;
+.team-content-left p {
+	margin-top: 30px;
+	color: #283562;
+	font-weight: 400;
 }
 
 .mf-education-acchiv img {
@@ -973,11 +975,12 @@ img{
 	gap: 25px;
 }
 
-.ceren-edu-sort-title ,
+.ceren-edu-sort-title, 
 .mf-edu-title p {
 	letter-spacing: 2.33px;
 	color: #79C8EF;
 	margin-top: 5px;
+	font-size: 12px;
 }
 
 .mf-edu-content p {
