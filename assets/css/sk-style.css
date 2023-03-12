@@ -66,9 +66,9 @@
 	gap: 20px;
 }
 
-.project-img-item{
-    height: 180px;
-    flex: 0 0 31%;
+.project-img-item {
+	height: 180px;
+	flex: 0 0 calc(100% / 3 - 14px);
 }
 
 .project-img-item img{
@@ -97,6 +97,10 @@
 .team-box,
 .project-works-box {
 	padding: 0 60px;
+}
+
+.project-works-tabs-list li {
+	margin-bottom: 14px;
 }
 
 
@@ -164,12 +168,23 @@
     margin-top: 80px;
 }
 
+.team-members-row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.team-members-col{
+	flex: 0 0 calc(100% / 4 - 14px);
+	margin-bottom: 33px;
+}
+
 /***************************************/
 /*********** Team Mf Page CSS**********/
 /*************************************/ 
 
 .mf-left-img {
-	width: 100%;
+	width: 610px;
 	height: 692px;
 }
 
@@ -202,8 +217,8 @@
 }
 
 .mf-team-right-box {
-	margin-left: 100px;
-	width: 53%;
+	margin-left: 30px;
+	width: 69%;
 }
 
 .mf-team-content-scroll {
@@ -242,7 +257,7 @@
 }
 
 .mf-education-content-area {
-	margin-left: 50px;
+	margin-left: 76px;
 }
 
 
@@ -330,7 +345,7 @@
 
 .contact-from {
 	width: 68%;
-	margin: 0 auto;
+	margin: 80px auto;
 }
 
 .contact-title h2{
@@ -344,4 +359,9 @@
 .form-group textarea {
 	height: 122px;
 	resize: none;
+}
+
+.contact-form-img iframe {
+	width: 100%;
+	height: 638px;
 }

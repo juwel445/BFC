@@ -34,7 +34,10 @@
     .mf-team-box {
         margin-left: 0;
     }
-    
+    .team-members-col{
+        flex: 0 0 calc(100% / 2 - 14px);
+        margin-bottom: 23px;
+    }
 }
 @media all and (max-width:767px){
     .project-img-item {
@@ -84,8 +87,9 @@
     }
     .contact-from {
         width: 100%; 
-        padding: 20px 30px;
-    }
+        padding: 0 30px;
+        margin: 25px auto;
+    } 
 }
 
 
@@ -105,6 +109,16 @@
     }
     .mf-left-img {
         height: 341px;
+        width: 100%;
     }
-    
+    .team-members-col{
+        flex: 0 0 100%;
+        margin-bottom: 12px;
+    }
+    br{
+        display: none;
+    }
+    .contact-form-img iframe { 
+        height: 328px;
+    }
 }
