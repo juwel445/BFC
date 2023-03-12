@@ -1,3 +1,10 @@
+@media all and (max-width: 1199px) {
+    .view_more_box_txt {
+        background: #323F69;
+        padding: 145px 0 0 50px;
+    }
+}
+
 @media all and (max-width: 991px) {
     .nav_items {
         padding: 100px 0 130px 117px;
@@ -37,6 +44,28 @@
     }
     .footer_nav_social_area {
         margin-left: 0;
+    }
+    /* project corporate css */
+    .single_project_view_more {
+        flex-direction: column;
+    }
+    .flex-w-2 {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .custom_order {
+        order: -1;
+    }
+    .view_more_box_txt {
+        margin-bottom: 18px;
+    }
+    .flex-w-4 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .custom_gap{
+        margin-bottom: 18px;
     }
 }
 @media all and (max-width: 767px) {
@@ -112,6 +141,11 @@
     .footer_navbar ul li a {
         margin: 0 17px;
     }
+    /* project corporate css */
+    .scroll_more_area {
+        padding: 468px 0 60px;
+    }
+    
 }
 @media all and (max-width: 575px) {
     .hero_logo a {
@@ -160,20 +194,20 @@
         display: none;
     }
     .title-1{
-        font-size: 50px;
+        font-size: 46px;
       }
-      .title-2{
-        font-size: 40px;
-      }
+      .title-2 {
+        font-size: 36px;
+    }
       .title-3{
-        font-size: 32px;
+        font-size: 30px;
       }
       .title-4{
-        font-size: 28px;
+        font-size: 26px;
       
       }
       .title-5{
-        font-size: 24px;
+        font-size: 22px;
       }
       .main_area {
         margin-top: 60px;
@@ -181,5 +215,24 @@
     .footer_form_content {
         width: 100%;
         padding-left: 0;
+    }
+    /* project corporate css */
+    .text-2 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFF;
+        line-height: 26px;
+    }
+    .view_more_box_txt p {
+        margin-top: 10px;
+    }
+    .custom_height {
+        height: 300px;
+    }
+    .view_more_box_txt {
+        padding: 95px 0 0 30px;
+    }
+    .scroll_more_area {
+        padding: 434px 0 60px;
     }
 }

@@ -1,23 +1,3 @@
-const myDiv = document.getElementById("menu_logo");
-
-// // Add class when hovering
-myDiv.addEventListener("mouseover", function() {
-  myDiv.classList.add("hovered");
-});
-
-// // Remove class when no longer hovering
-myDiv.addEventListener("mouseout", function() {
-  myDiv.classList.remove("hovered");
-});
-
-
-// Get the anchor element by its class
-const leftAnchor = document.querySelector('.left_side');
-
-// Add the "disabled" class to the anchor element
-leftAnchor.classList.add('disabled');
-
-
 
 
 $(document).ready(function(){
@@ -114,4 +94,23 @@ $(function() {
 
 
 
-  
+  const myDiv = document.getElementById("menu_logo");
+
+// // Add class when hovering
+myDiv.addEventListener("mouseover", function() {
+  myDiv.classList.add("hovered");
+});
+
+// // Remove class when no longer hovering
+myDiv.addEventListener("mouseout", function() {
+  myDiv.classList.remove("hovered");
+});
+
+
+// Get the anchor element by its class
+const leftAnchor = document.querySelector('.left_side');
+
+// Add the "disabled" class to the anchor element
+leftAnchor.classList.add('disabled');
+
+
