@@ -11,6 +11,11 @@ myDiv.addEventListener("mouseout", function() {
 });
 
 
+// Get the anchor element by its class
+const leftAnchor = document.querySelector('.left_side');
+
+// Add the "disabled" class to the anchor element
+leftAnchor.classList.add('disabled');
 
 
 
