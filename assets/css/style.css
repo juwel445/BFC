@@ -926,10 +926,11 @@ img{
 	height: 100%; 
 }
 
-.mf-top-title p {
+.mf-top-title a {
 	letter-spacing: 2px;
 	color: #5D6D7E;
 	margin-bottom: 57px;
+	display: block;
 }
 
 .mf-team-name-title p {
@@ -961,7 +962,7 @@ img{
 .team-content-left p {
 	margin-top: 30px;
 	color: #283562;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .mf-education-acchiv img {
@@ -981,6 +982,7 @@ img{
 	color: #79C8EF;
 	margin-top: 5px;
 	font-size: 12px;
+	font-weight: 500;
 }
 
 .mf-edu-content p {
