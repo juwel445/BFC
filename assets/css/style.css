@@ -930,7 +930,7 @@ img{
 	letter-spacing: 2px;
 	color: #5D6D7E;
 	margin-bottom: 57px;
-	display: block;
+	display: inline-block;
 }
 
 .mf-team-name-title p {
