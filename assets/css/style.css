@@ -702,10 +702,6 @@ img{
 .corporate_another_hero{
   background: url(../images/projects-corp-2/projects-corp-2-main-image.webp) no-repeat scroll 0 0 / cover;
 }
-.corporate_main .scroll_more_area {
-    padding: 675px 0 60px;
-    text-align: center;
-}
 .another_corporate_view{
   flex: 0 0 100%;
 }
@@ -960,10 +956,11 @@ img{
 	text-align: end;
 }
 
-.team-content-left p {
+.team-content-left a {
 	margin-top: 30px;
 	color: #283562;
 	font-weight: 500;
+	display: block;
 }
 
 .mf-education-acchiv img {
@@ -1037,16 +1034,11 @@ img{
 	width: 85%;
 	margin: 0 auto 30px auto;
 }
-
-.contact-button {
-	letter-spacing: 2.17px;
-	color: #323F69;
-	font-size: 13px;
-	border: 1px solid #323F69;
-	border-radius: 8px;
-	padding: 10px 20px; 
-    transition: 0.3s;
+.contact-button-img {
+	display: inline-block;
+	margin-bottom: 13px;
 }
+
 
 .contact-form-area{
     overflow-x: hidden;
@@ -1086,7 +1078,11 @@ img{
 	width: 68%;
 	margin: 80px auto;
 }
-
+.team-button-img {
+	background: transparent !important;
+	border: none !important;
+	outline: 0 !important;
+}
 .contact-title h2{
     margin-bottom: 60px;
 }
