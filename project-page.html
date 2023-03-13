@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css">  -->
     <link rel="stylesheet" href="assets/css/style.css"> 
     <link rel="stylesheet" href="assets/css/responsive.css"> 
 </head>
@@ -90,53 +91,53 @@
                             <div class="project-works-tabs">
                                 <h3 class="title-4">Works</h3>
                                 <ul class="project-works-tabs-list">
-                                    <li><a href="#" class="pra-4 active ">ALL</a></li>
-                                    <li><a href="#" class="pra-4">MULTIFAMILY</a></li>
-                                    <li><a href="#" class="pra-4">COMMUNITIES</a></li>
-                                    <li><a href="#" class="pra-4">K-12 EDUCATION</a></li>
-                                    <li><a href="#" class="pra-4">HIGHER EDUCATION</a></li>
-                                    <li><a href="#" class="pra-4">CORPORATE</a></li>
-                                    <li><a href="#" class="pra-4">PARKS & ROADWAYS</a></li>
-                                    <li><a href="#" class="pra-4">RESIDENTIAL</a></li>
+                                    <li><button type="button" data-filter="all" class="pra-4 active ">ALL</button></li>
+                                    <li><button type="button" data-filter=".multifamily" class="pra-4">MULTIFAMILY</button></li>
+                                    <li><button type="button" data-filter=".communities" class="pra-4">COMMUNITIES</button></li>
+                                    <li><button type="button" data-filter=".education" class="pra-4">K-12 EDUCATION</button></li>
+                                    <li><button type="button" data-filter=".high-edu" class="pra-4">HIGHER EDUCATION</button></li>
+                                    <li><button type="button" data-filter=".corporate" class="pra-4">CORPORATE</button></li>
+                                    <li><button type="button" data-filter=".parks" class="pra-4">PARKS & ROADWAYS</button></li>
+                                    <li><button type="button" data-filter=".residential" class="pra-4">RESIDENTIAL</button></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-9"> 
                             <div class="project-img-box">
-                                <div class="project-img-item">
+                                <div class="project-img-item mix corporate">
                                     <img src="assets/images/project-page/corporate-1.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix multifamily">
                                     <img src="assets/images/project-page/multifamily-3.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix education">
                                     <img src="assets/images/project-page/k12-education.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix residential">
                                     <img src="assets/images/project-page/residential-3.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix multifamily">
                                     <img src="assets/images/project-page/multifamily-2.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix communities">
                                     <img src="assets/images/project-page/community.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix multifamily">
                                     <img src="assets/images/project-page/multifamily-4.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix residential">
                                     <img src="assets/images/project-page/residential-3-1.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix multifamily">
                                     <img src="assets/images/project-page/multifamily-1.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix residential">
                                     <img src="assets/images/project-page/residential-2.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix high-edu">
                                     <img src="assets/images/project-page/higher-education.webp" alt="">
                                 </div>
-                                <div class="project-img-item">
+                                <div class="project-img-item mix corporate">
                                     <img src="assets/images/project-page/corporate-2.webp" alt="">
                                 </div>
                             </div>
@@ -231,7 +232,14 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        var containerEl = document.querySelector('.project-img-box');
+        console.log(containerEl);
+
+        var mixer = mixitup(containerEl);
+    </script>
 
 </body>
 

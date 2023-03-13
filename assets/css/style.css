@@ -791,8 +791,7 @@ img{
 
 .project-img-box {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	flex-wrap: wrap; 
 	gap: 20px;
 }
 
@@ -812,15 +811,17 @@ img{
 	margin-bottom: 24px;
 }
 
-.project-works-tabs-list li a {
+.project-works-tabs-list li button {
 	letter-spacing: 2px;
 	color: #5D6D7E;
 	text-transform: uppercase;
     transition: 0.3s;
+	border: none;
+	background: transparent;
 }
 
-.project-works-tabs-list li a.active,
-.project-works-tabs-list li a:hover { 
+.project-works-tabs-list li button.active,
+.project-works-tabs-list li button:hover { 
     color: #283562;
 }
 

@@ -114,3 +114,10 @@ const leftAnchor = document.querySelector('.left_side');
 leftAnchor.classList.add('disabled');
 
 
+
+
+// Mixitup script 
+
+// var containerEl = document.querySelector('.project-img-box');
+
+// var mixer = mixitup(containerEl);
