@@ -131,12 +131,23 @@
     .menu_content {
         width: 335px;
     } 
+    .project-works-tabs h3 {
+        color: #283562;
+        opacity: 1;
+        margin-bottom: 24px;
+        text-align: left;
+        max-width: 330px;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 24px;
+    }
     .project-works-tabs-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         max-width: 302px;
         margin: auto;
+        width: 100%;
     }
     .project-works-tabs-list li {
         flex: 0 0 calc(100% / 2);
