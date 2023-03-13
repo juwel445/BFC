@@ -294,13 +294,13 @@
         display: none;
     }
     .title-1{
-        font-size: 46px;
+        font-size: 40px;
       }
     .title-2 {
-        font-size: 36px;
+        font-size: 30px;
     }
     .title-3{
-        font-size: 30px;
+        font-size: 26px;
     }
     .title-4{
         font-size: 22px;
@@ -438,7 +438,7 @@
 
     /* project corporate css */
     .text-2 {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         color: #FFF;
         line-height: 26px;
@@ -505,6 +505,18 @@
         max-width: 305px;
         width: 100%;
         margin: auto;
+    }
+    .scroll_more_area {
+        padding: 728px 0 60px;
+    }
+    .corporate_hero_main {
+        height: 812px;
+    }
+    .corporate_another_hero {
+        height: 812px;
+    }
+    .corporate_main .scroll_more_area {
+        padding: 728px 0 60px;
     }
 
     /* other css  */
