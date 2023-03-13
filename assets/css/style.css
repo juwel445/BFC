@@ -1083,6 +1083,10 @@ img{
 	border: none !important;
 	outline: 0 !important;
 }
+.team-button-images {
+	display: inline-block;
+	margin-top: 15px;
+}
 .contact-title h2{
     margin-bottom: 60px;
 }
