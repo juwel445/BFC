@@ -702,6 +702,10 @@ img{
 .corporate_another_hero{
   background: url(../images/projects-corp-2/projects-corp-2-main-image.webp) no-repeat scroll 0 0 / cover;
 }
+.corporate_main .scroll_more_area {
+    padding: 675px 0 60px;
+    text-align: center;
+}
 .another_corporate_view{
   flex: 0 0 100%;
 }

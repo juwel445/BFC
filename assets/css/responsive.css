@@ -168,6 +168,9 @@
         border: 3px solid #FFFFFF !important;
         opacity: 1 !important;
     }
+    .corporate_main .scroll_more_area {
+        padding: 498px 0 60px;
+    }
     .footer_logo_form {
         align-items: flex-start;
         flex-direction: column;
