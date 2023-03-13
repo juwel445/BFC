@@ -716,8 +716,13 @@ img{
 .residential_view_more{
   flex: 0 0 calc(100% / 2 - 11px);
 }
-
-
+.blufish_txt p span {
+	display: block;
+	margin-bottom: 20px;
+}
+.dekstop_hide{
+	display: none;
+}
 
 
 

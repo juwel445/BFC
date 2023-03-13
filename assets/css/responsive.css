@@ -248,6 +248,8 @@
         padding: 0 30px;
         margin: 25px auto;
     } 
+   
+   
 }
 @media all and (max-width: 575px) {
     .hero_logo a {
@@ -264,10 +266,6 @@
         max-width: 250px;
         width: 100%;
     }
-    .home_bluefish_area {
-        width: 95%;
-        margin: auto;
-    }
     .home_service_single_content {
         flex: 0 0 calc(100% / 2 - 15px);
     }
@@ -280,13 +278,13 @@
         padding-bottom: 70px;
     }
     .back_top a {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 3px 3px 6px #00000029;
         border-radius: 50%;
         color: #323F69;
-        font-size: 20px;
+        font-size: 15px;
     }
     .back_top {
         position: fixed;
@@ -298,26 +296,146 @@
     .title-1{
         font-size: 46px;
       }
-      .title-2 {
+    .title-2 {
         font-size: 36px;
     }
-      .title-3{
+    .title-3{
         font-size: 30px;
-      }
-      .title-4{
-        font-size: 26px;
-      
-      }
-      .title-5{
+    }
+    .title-4{
         font-size: 22px;
+      
+    }
+    .title-5{
+        font-size: 20px;
       }
-      .main_area {
-        margin-top: 60px;
+    .main_area {
+        margin-top: 0px;
+    }
+    .hero_main_area {
+        height: 812px;
+    }
+    .hero_logo a {
+        max-width: 210px;
+        position: absolute;
+        bottom: 0;
+    }
+    .menu_content {
+        height: 812px;
+    }
+    .nav_items {
+        padding: 100px 0 354px 65px;
+    }
+    .blufish_top_conten {
+        padding: 50px 0 50px;
+        flex-direction: column;
+        max-width: 302px;
+        width: 100%;
+        margin: auto;
+    }
+    .blufish_feature_area.blufetures_items:nth-child(1) {
+        margin-bottom: 0;
+    }
+    .home_blufish_single_items {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .blufish_feature_area {
+        flex: 0 0 calc(100% / 2 - 4px);
+    }
+    .blufish_feature_area .blufeature_inner_txt {
+        left: 20px;
+        top: 20px;
+    }
+    .blufish_feature_area .title-5 {
+        font-size: 10px;
+    }
+    .home_blufish_single_items {
+        margin-bottom: 8px;
+    }
+    .custom_height_2 {
+        height: 110px;
+    }
+    .custom_height_1 {
+        height: 272px;
+        width: 100%;
+    }
+    .left_home_about {
+        display: none;
+    }
+    .right_home_about {
+        flex: 0 0 50%;
+        margin-top: 50px;
+        width: 100%;
+        max-width: 304px;
+    }
+    .home_project_main_area .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .home_project_title {
+        padding-bottom: 20px;
+        max-width: 303px;
+        width: 100%;
+        margin: auto;
+    }
+    .home_project_item {
+        height: 220px;
+    }
+    .home_project_item img {
+        height: 100%;
+    }
+    .home_project_slider .owl-next {
+        width: 30px;
+        height: 30px;
+        border: 2px solid #FFFFFF !important;
+        font-size: 16px !important;
+        position: absolute;
+        right: 20px;
+        top: 92px;
+    }
+    .home_project_slider .owl-prev {
+        width: 30px;
+        height: 30px;
+        border: 2px solid #FFFFFF !important;
+        font-size: 16px !important;
+        position: absolute;
+        left: 20px;
+        top: 92px;
     }
     .footer_form_content {
         width: 100%;
         padding-left: 0;
     }
+    .copy_right_area {
+        order: -1;
+        margin-bottom: 10px;
+    }
+    .privacy_policy_area {
+        order: -1;
+    }
+    .footer_location a {
+        text-align: left;
+    }
+    .privacy_policy_area ul {
+        justify-content: flex-start;
+    }
+    .footer_btm_area {
+        text-align: left;
+    }
+    .footer_logo a {
+        display: inline-block;
+        max-width: 244px;
+        width: 100%;
+    }
+    .footer_navbar ul li a {
+        font-size: 12px;
+    }
+
     /* project corporate css */
     .text-2 {
         font-size: 20px;
@@ -336,6 +454,57 @@
     }
     .scroll_more_area {
         padding: 434px 0 60px;
+    }
+    .mobile_hide{
+        display: none;
+    }
+    .dekstop_hide{
+        display: block;
+    }
+    .mobile_footer_location p {
+        font-size: 12px;
+        color: #FFF;
+        font-weight: 400;
+        display: inline-block;
+        padding-top: 26px;
+    }
+    .mobile_footer_location p span {
+        display: block;
+    }
+    .footer_nav_social_area {
+        padding-bottom: 27px;
+        border-bottom: none;
+        max-width: 305px;
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+    }
+    .footer_navbar {
+        border-bottom: 1px solid #ABE1FB;
+        padding-bottom: 36px;
+        width: 100%;
+    }
+    .mobile_subscribe {
+        margin-top: 36px;
+    }
+    .footer_form_content form input {
+        width: 100%;
+    }
+    .footer_main_area .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer_navbar ul li:nth-child(1) a {
+        margin-left: 0;
+    }
+    .footer_nav_social_area {
+        align-items: flex-start;
+    }
+    .footer_btm_area {
+        text-align: left;
+        max-width: 305px;
+        width: 100%;
+        margin: auto;
     }
 
     /* other css  */
@@ -370,13 +539,13 @@
     .project-img-item { 
         flex: 0 0 100%;
     }
+    .text-1 {
+        font-size: 12px;
+    }
+    .blufish_title h4 {
+        max-width: 240px;
+        margin: initial;
+        width: 100%;
+    }
 }
 
-@media all and (max-width: 450px) {
-    .home_project_slider .owl-prev {
-        top: 25%;
-    }
-    .home_project_slider .owl-next {
-        top: 25%;
-    }
-}
