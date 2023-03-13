@@ -78,7 +78,7 @@
 
     .project-img-item {
         height: 280px;
-        flex: 0 0 100%;
+        flex: 0 0 calc(100% / 2 - 10px);
     }
     .project-banner {
         height: 451px; 
@@ -366,6 +366,9 @@
     }
     .contact-form-img iframe { 
         height: 328px;
+    }
+    .project-img-item { 
+        flex: 0 0 100%;
     }
 }
 
