@@ -404,8 +404,7 @@ img{
 	font-size: 32px !important;
 	position: absolute;
 	right: -42px;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 35%;
 }
 .home_project_slider .owl-prev {
 	background: #323F69 !important;
@@ -417,8 +416,7 @@ img{
 	font-size: 32px !important;
 	position: absolute;
 	left: -42px;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 35%;
 }
 .home_project_slider .owl-prev.disabled, 
 .home_project_slider .owl-next.disabled {

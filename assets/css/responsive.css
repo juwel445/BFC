@@ -27,6 +27,12 @@
         flex: 0 0 50%;
         margin-top: 50px;
     }
+    .home_project_slider .owl-next {
+        top: 30%;
+    }
+    .home_project_slider .owl-prev {
+        top: 30%;
+    }
     .footer_btm_area {
         margin-left: 0px;
         padding-top: 17px;
@@ -155,8 +161,6 @@
         height: 45px;
         font-size: 16px !important;
         left: -28px;
-        top: 50%;
-        transform: translateY(-50%);
     }
     .home_project_slider .owl-prev.disabled, 
     .home_project_slider .owl-next.disabled {
@@ -359,5 +363,14 @@
     }
     .contact-form-img iframe { 
         height: 328px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .home_project_slider .owl-prev {
+        top: 25%;
+    }
+    .home_project_slider .owl-next {
+        top: 25%;
     }
 }
