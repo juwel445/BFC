@@ -81,7 +81,7 @@
         flex: 0 0 calc(100% / 2 - 10px);
     }
     .project-banner {
-        height: 451px; 
+        height: 717px;
     }
     .project-works-tabs {
         margin-bottom: 20px;
@@ -89,12 +89,15 @@
     }
     .project-bnner-area {
         background: url('../images/project-page/projects-main-image.webp') no-repeat scroll center center / cover;
+        height: 812px;
     }
     .team-bnner-area {
         background: url('../images/team/team-main-image.webp') no-repeat scroll center center / cover;
+        height: 812px;
     }
     .contact-bnner-area { 
         background: url('../images/contact/contact-main-image.webp') no-repeat scroll center center / cover;
+        height: 812px;
     }
     .team-section-title {
         margin-bottom: 17px;
@@ -102,7 +105,8 @@
     .team-member-title { 
         text-align: center;
     }
-    .mf-top-title p { 
+    .mf-top-title a { 
+        margin-top: 20px;
         margin-bottom: 20px;
     }
     .mf-team-name-title p { 
@@ -115,6 +119,9 @@
         flex: 0 0 calc(100% / 2 - 14px);
         margin-bottom: 23px;
     }
+    .project-banner h2{
+        padding-bottom: 0;
+    }
 }
 @media all and (max-width: 767px) {
     .hero_logo a {
@@ -123,6 +130,24 @@
     }
     .menu_content {
         width: 335px;
+    } 
+    .project-works-tabs-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 302px;
+        margin: auto;
+    }
+    .project-works-tabs-list li {
+        flex: 0 0 calc(100% / 2);
+        text-align: left;
+    }
+    .project-works-tabs-list li button {
+        display: ruby-text;
+    }
+    .team-content-right {
+        max-width: 302px;
+        margin: auto;
     }
     .nav_items {
         padding: 100px 0 130px 75px;
@@ -197,9 +222,20 @@
     
 
     /* other css  */
-
+    .title-6 {
+        font-size: 16px;
+    }
+    .team-content-left a {
+        margin-top: 6px; 
+    }
     .project-img-item {
         height: 180px; 
+    }
+    .mf-team-right-box {
+        padding: 0;
+        max-width: 302px;
+        margin: auto;
+        width: 100%;
     }
     .team-box, .project-works-box {
         padding: 0;
@@ -221,12 +257,7 @@
     }
     .pra-16 {
         font-size: 14px;
-    }
-    .mf-team-right-box {
-        margin-left: 0;
-        width: 100%;
-        padding: 20px 67px;
-    }
+    } 
     .ceren-content-padding {
         padding: 35px 0;
     }
@@ -239,6 +270,8 @@
     }
     .mf-education-content-area {
         margin-left: 0;
+        max-width: 302px;
+        margin: auto;
     }
     .mf-left-img {
         height: 570px;
@@ -524,9 +557,6 @@
 
     /* other css  */
 
-    .mf-team-right-box { 
-        padding: 20px 39px;
-    }
     .mf-left-img { 
         height: 462px;
     }
