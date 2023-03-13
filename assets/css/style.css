@@ -473,8 +473,7 @@ img{
 .footer_form_content form input {
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	border-radius: 8px;
-	max-width: 272px;
-	width: 100%;
+	width: 272px;
 	text-align: left;
 	font: normal normal normal 14px/24px Roboto;
 	letter-spacing: 0px;
