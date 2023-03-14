@@ -311,15 +311,19 @@
         width: 100%;
     }
     .home_service_single_content {
-        flex: 0 0 calc(100% / 2 - 15px);
+        flex: 0 0 calc(100% / 2 - 55px);
+        padding-bottom: 10px;
     }
     .home_service_area {
-        padding: 50px 0;
+        padding: 50px 0 0;
     }
     .home_about_main_area {
         width: 95%;
         margin: auto;
         padding-bottom: 70px;
+    }
+    .serive_images a {
+        max-width: 102px;
     }
     .back_top a {
         width: 35px;
@@ -596,7 +600,7 @@
         flex: 0 0 100%;
     }
     .text-1 {
-        font-size: 12px;
+        font-size: 14px;
     }
     .blufish_title h4 {
         max-width: 240px;
