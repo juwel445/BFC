@@ -767,5 +767,11 @@
     .form-last-content { 
         display: none;
     }
+    .team-section-title { 
+        margin-top: 40px;
+    }
+    .project-works-tabs {
+        margin: 40px auto 20px auto;
+    }
 }
 
