@@ -52,27 +52,23 @@
         margin-left: 0;
     }
     /* project corporate css */
-    .single_project_view_more {
-        flex-direction: column;
+    .text-2 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFF;
+        line-height: 30px;
     }
-    .flex-w-2 {
-        flex: 0 0 100%;
-        width: 100%;
-        margin-left: 0;
+    .title-2 {
+        font-size: 30px;
+        font-weight: 500;
     }
-    .custom_order {
-        order: -1;
+    .view_more_box_txt p {
+        margin-top: 10px;
     }
-    .view_more_box_txt {
-        margin-bottom: 18px;
+    .custom_height {
+        height: 380px;
     }
-    .flex-w-4 {
-        width: 100%;
-        margin-left: 0;
-    }
-    .custom_gap{
-        margin-bottom: 18px;
-    }
+    
 
     /* other css  */
 
@@ -485,12 +481,6 @@
     }
 
     /* project corporate css */
-    .text-2 {
-        font-size: 16px;
-        font-weight: 400;
-        color: #FFF;
-        line-height: 26px;
-    }
     .view_more_box_txt p {
         margin-top: 10px;
     }
@@ -606,6 +596,63 @@
         max-width: 240px;
         margin: initial;
         width: 100%;
+    }
+    /* new css */
+
+    .view_more_box_txt h2 {
+        color: #FFF;
+        font-size: 14px;
+    }
+    .flex-w-2 {
+        flex: 0 0 calc(44% - 5px);
+        margin-left: auto;
+    }
+    .view_more_box_txt {
+        padding: 30px 0 0 30px;
+    }
+    .custom_height {
+        height: 140px;
+    }
+    .text-2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFF;
+        line-height: 14px;
+    }
+    .view_more_box_txt p {
+        margin-top: 0;
+    }
+    .single_project_view_more {
+        margin-bottom: 5px;
+    }
+    .flex-w-4 {
+        flex: 0 0 calc(51% - 5px);
+    }
+    .flex-w-6 {
+        flex: 0 0 calc(58% - 5px);
+        margin-left: auto;
+    }
+    .view_next_project ul li .view_more_txt {
+        font-size: 14px;
+        margin: 0 25px;
+        line-height: 26px;
+    }
+    .view_more_title {
+        text-align: center;
+        padding: 50px 0 50px;
+    }
+    .flex-reverse-7 {
+        flex: 0 0 calc(60% - 5px);
+        margin-right: auto;
+    }
+    .view_more_items {
+        flex: 0 0 calc(100% / 3 - 4px);
+    }
+    .residential_view_more {
+        flex: 0 0 calc(100% / 2 - 3px);
+    }
+    .flex_margin{
+        margin-left: 0 !important;
     }
 }
 
