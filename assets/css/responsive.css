@@ -746,5 +746,17 @@
         width: 100%;
         height: auto;
     }
+    .team-join.text-center.contact-button-text h2 {
+        font-size: 22px;
+        padding-top: 35px;
+    }
+    .contact-button-text h2 {
+        width: 75%;
+        margin: 0 auto 40px auto;
+    }
+    .contact-button-img {
+        display: inline-block;
+        margin-bottom: 50px;
+    }
 }
 
