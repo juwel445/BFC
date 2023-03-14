@@ -96,24 +96,25 @@
         height: 812px;
     }
     .team-section-title {
-        margin-bottom: 17px;
+        margin-bottom: 42px;
     }
+    
     .team-member-title { 
         text-align: center;
     }
-    .mf-top-title a { 
-        margin-top: 20px;
+    .mf-top-title a {
+        margin-top: 57px;
         margin-bottom: 20px;
     }
-    .mf-team-name-title p { 
-        margin-bottom: 10px;
+    .mf-team-name-title p {
+        margin-bottom: 32px;
     }
     .mf-team-box {
         margin-left: 0;
     }
     .team-members-col{
         flex: 0 0 calc(100% / 2 - 14px);
-        margin-bottom: 23px;
+        margin-bottom: 0;
     }
     .project-banner h2{
         padding-bottom: 0;
@@ -123,6 +124,19 @@
     .hero_logo a {
         max-width: 260px;
         margin-top: 375px;
+    }
+    .team-box-img {
+        margin: 35px 0;
+        width: 100%;
+        max-width: 302px;
+        margin: 35px auto;
+    }
+    .team-member {
+        width: 100%; 
+    }
+    .team-member img{
+        width: 100%;
+        height: 100px;
     }
     .menu_content {
         width: 335px;
@@ -137,10 +151,13 @@
         width: 100%;
         padding-bottom: 24px;
     }
-    .project-works-tabs-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    .team-content-left {
+        text-align: left; 
+        width: 100%;
+        max-width: 302px;
+        margin: 41px auto;
+    }
+    .project-works-tabs-list {  
         max-width: 302px;
         margin: auto;
         width: 100%;
@@ -151,6 +168,13 @@
     }
     .project-works-tabs-list li button {
         display: ruby-text;
+    }
+    .project-works-tabs {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        max-width: 302px;
+        margin: 0 auto 20px auto;
     }
     .team-content-right {
         max-width: 302px;
@@ -269,8 +293,12 @@
         padding: 35px 0;
     }
     .team-content-left {
-        text-align: center;
-        margin-bottom: 25px;
+        text-align: left;
+        margin-bottom: 41px;
+    }
+    .team-content-left a {
+        margin-top: 6px;
+        display: none;
     }
     .team-content-left p {
         margin-top: 14px;
@@ -288,13 +316,42 @@
         padding: 0 30px;
         margin: 25px auto;
     } 
-   
+    .project-banner {
+        height: 665px;
+    }
+    .contact-image-area img {
+        height: 355px;
+        object-fit: cover;
+    }
+    .desktop-text{
+        display: none;
+    }
+    .mobile-text{
+        display: block !important;
+    }
    
 }
 @media all and (max-width: 575px) {
     .hero_logo a {
         max-width: 210px;
         margin-top: 375px;
+    }
+    .project-bnner-area,
+    .team-bnner-area,
+    .contact-bnner-area { 
+        height: 650px;
+    }
+    .project-banner h2 {
+        padding-bottom: 170px;
+    }
+    .title-6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .team-content-left { 
+        width: 100%;
+        max-width: 302px;
+        margin: 0 auto 41px auto;
     }
     .menu_content {
         width: 287px;
@@ -573,21 +630,32 @@
         margin-bottom: 22px;
     }
     .mf-left-img {
-        height: 341px;
+        height: 650px;
         width: 100%;
+        object-fit: cover;
     }
-    .team-members-col{
-        flex: 0 0 100%;
-        margin-bottom: 12px;
-    }
+    .mf-left-img img{ 
+        object-fit: cover;
+    } 
     br{
         display: none;
     }
     .contact-form-img iframe { 
         height: 328px;
     }
-    .project-img-item { 
-        flex: 0 0 100%;
+    .project-img-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .project-img-item {
+        flex: 0 0 calc(100% / 2 -8px);
+    }
+    .project-img-item {
+        height: 150px;
+    }
+    .project-img-item img {  
+        object-fit: cover;
     }
     .text-1 {
         font-size: 14px;
@@ -653,6 +721,9 @@
     }
     .flex_margin{
         margin-left: 0 !important;
+    }
+    .contact-section-padding, .mf-section-padding, .team-section-padding, .project-section-padding {
+        padding: 15px 0;
     }
 }
 
