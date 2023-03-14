@@ -742,5 +742,9 @@
     .team-ceren-mid-cont {
         padding: 0 7px;
     }
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
 }
 
