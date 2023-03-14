@@ -758,5 +758,9 @@
         display: inline-block;
         margin-bottom: 50px;
     }
+    .form-last-content {
+        color: #323F69;
+        display: none;
+    }
 }
 
